@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-main{
+body{
   background-color: black;
   height: calc(100vh - 100px);
   overflow: auto;
@@ -14,29 +14,58 @@ main{
   display: flex;
 }
 
+/* header */
+
+header{
+  justify-content: end;
+  padding: 0 5px;
+  height: 50px;
+  color: white;
+  margin: 5px;
+}
+
+header div{
+  display: inline-block;
+}
+
+header div p{
+  display: inline-block;
+  background-color: grey ;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+header div div{
+  background-color: grey;
+  padding: 5px;
+  border-radius: 7px;
+}
 
 .container{
   margin: 0 auto;
   max-width: 100%;
   flex-wrap: wrap;
-  margin-top: auto;
 }
 
+/* main */
 .container, img{
   justify-content: center;
   align-items: center;
 }
+
 .images{
   position: relative;
   padding: 1px;
 }
+/* main */
+
 
 .mute{
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   padding: 5px;
   background-color: grey;
-  color: black;
+  color: white;
 
 }
 
@@ -103,12 +132,14 @@ footer .container{
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-color: grey;
   width: 100px;
   height: 100%;
   color: red;
 }
 
+.right:hover{
+  background-color: grey;
+}
 
 .icons i{
   font-size: 2rem;
