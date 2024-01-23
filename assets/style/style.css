@@ -3,3 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main{
+  background-color: grey;
+  height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+
+.container{
+  margin: 0 auto;
+  max-width: 1700px;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.container, img{
+  justify-content: center;
+  align-items: center;
+}
+.images{
+  position: relative;
+  padding: 1px;
+}
+
+.mute{
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+}
+
+footer{
+  background-color: #222222 ;
+  height: 100px;
+}
