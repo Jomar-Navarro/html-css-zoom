@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 main{
   background-color: black;
   height: calc(100vh - 100px);
@@ -149,7 +151,8 @@ footer .container{
   padding: 0 20px;
 }
 
-.icons i:hover{
+.icons i:hover:active{
   color: green;
   cursor: pointer;
 }
+
