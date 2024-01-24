@@ -8,7 +8,7 @@
 
 main{
   background-color: black;
-  height: calc(100vh - 100px);
+  height: calc(90vh - 100px);
   overflow: auto;
 }
 
@@ -19,10 +19,11 @@ main{
 /* header */
 
 header{
+  position: sticky;
   background-color: black;
   justify-content: end;
-  height: 100px;
   color: white;
+  height: 100px;
 }
 
 header div{
@@ -50,6 +51,9 @@ header div div{
 }
 
 /* main */
+section{
+}
+
 .container, img{
   justify-content: center;
   align-items: center;
@@ -72,6 +76,7 @@ header div div{
 }
 
 footer{
+  position: sticky;
   background-color: #222222 ;
   height: 100px;
 }
