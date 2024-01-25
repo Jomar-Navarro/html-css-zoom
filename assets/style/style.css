@@ -50,6 +50,11 @@ header div div{
   flex-wrap: wrap;
 }
 
+.container-2{
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 /* main */
 section{
 }
@@ -81,7 +86,7 @@ footer{
   height: 100px;
 }
 
-footer .container{
+footer .container-2{
   height: 100%;
   width: 100%;
   justify-content: space-between;
